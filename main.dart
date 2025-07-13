@@ -59,6 +59,11 @@ class HomePage extends StatelessWidget {
               SizedBox(height: 40),
               ElevatedButton(
                 onPressed: () {
+  Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => OfficesPage()),
+  );
+},
                   // هنا هتحط التنقل لصفحة المكاتب
                 },
                 child: Text(
